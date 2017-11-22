@@ -12,9 +12,9 @@ export class RacesComponent {
   cash = 10000;
   races: Race[];
   
-ngOnInit() {
-  this.races = RACES;
-}
+  ngOnInit() {
+    this.races = RACES;
+  }
 
   totalCost() {
     let sum = 0;
